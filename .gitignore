@@ -1,0 +1,39 @@
+# Dependencies
+**/node_modules/
+.pnp
+.pnp.*
+
+# Build and test output
+**/dist/
+**/dist-ssr/
+**/build/
+**/coverage/
+
+# Local environment variables and secrets
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+
+# Tool caches
+.next/
+.vercel/
+.turbo/
