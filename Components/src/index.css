@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+
+.Card {
+    width: 280px;
+    background-color: #ffffff;
+
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+
+    margin: 20px;
+    padding: 16px;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    cursor: pointer;
+}
+
+/* Hover effect */
+.Card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Product image */
+.Card img {
+    width: 100%;
+    height: 220px;
+
+    object-fit: contain;
+
+    margin-bottom: 12px;
+}
+
+/* Product title */
+.Card h2 {
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #212121;
+
+    margin: 8px 0;
+
+    line-height: 1.4;
+}
+
+/* Product description */
+.Card p {
+    font-size: 14px;
+    color: #666666;
+
+    line-height: 1.5;
+
+    margin: 8px 0;
+}
+
+/* Price */
+.Card .price {
+    font-size: 22px;
+    font-weight: 700;
+
+    color: #212121;
+
+    margin-top: 12px;
+}
+
+/* Old price */
+.Card .old-price {
+    font-size: 14px;
+    color: #878787;
+
+    text-decoration: line-through;
+
+    margin-left: 8px;
+}
+
+/* Discount */
+.Card .discount {
+    font-size: 14px;
+    color: #008c45;
+
+    font-weight: 600;
+
+    margin-left: 8px;
+}
+
+/* Rating */
+.Card .rating {
+    display: inline-block;
+
+    background-color: #388e3c;
+    color: white;
+
+    padding: 4px 7px;
+
+    border-radius: 4px;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    margin-top: 8px;
+}
+
+/* Buy button */
+.Card button {
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 14px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #ff9f00;
+    color: white;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+/* Button hover */
+.Card button:hover {
+    background-color: #fb8c00;
+}
+
+
+
