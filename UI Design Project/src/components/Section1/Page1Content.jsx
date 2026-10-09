@@ -1,16 +1,20 @@
-import React from 'react'
-import Left from './Left'
-import Right from './Right'
+
+import React from "react";
+import Left from "./Left";
+import Right from "./Right";
 
 const Page1Content = () => {
   return (
-    <div className='py-3 flex items-center gap-10 px-18 bg-amber-400 h-[87vh] ' >
+    <main className="min-h-[87vh] px-[4%] py-10">
+      <div className="grid min-h-[79vh] grid-cols-[1fr_2fr] gap-10">
 
-      <Left/>
-      <Right/>
+        <Left />
 
-    </div>
-  )
-}
+        <Right />
 
-export default Page1Content
+      </div>
+    </main>
+  );
+};
+
+export default Page1Content;

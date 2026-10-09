@@ -4,7 +4,7 @@ import Page1Content from './Page1Content'
 
 const Section1 = () => {
   return (
-    <div className =' h-screen w-full bg-blue-100'>
+    <div className =' min-h-screen bg-white'>
       <NavBar/>
       <Page1Content/>
     </div>
